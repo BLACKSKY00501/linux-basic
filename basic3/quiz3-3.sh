@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ 10 -eq 10 ] && [ 20 -eq 20 ]
+if [ -e "quiz3-2.sh"] && [ -s "quiz3-3.sh" ]
 then
     echo "파일이 존재하며 비어있는 파일 입니다."
 else
